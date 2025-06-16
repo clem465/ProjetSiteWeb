@@ -1,0 +1,44 @@
+[
+    {
+        "titre": "Nouvelle saison : Évoluer des dragons pour les nuls",
+        "date": "3 juin 2025",
+        "categorie": "Blog – Clash Royale",
+        "lien": "https://clashroyale.com/fr/blog/news/nouvelle-saison-evoluer-des-dragons-pour-les-nuls.html",
+        "image": "pict/dragon_évoluer.webp"
+    },
+    {
+        "titre": "Changements d'équilibrage de juin !",
+        "date": "3 juin 2025",
+        "categorie": "Blog – Clash Royale",
+        "lien": "https://supercell.com/en/games/clashroyale/fr/blog/release-notes/changements-d-%C3%A9quilibrage-de-juin-2/",
+        "image": "pict/juin.webp"
+    },
+    {
+        "titre": "Changements d'équilibrage de mai !",
+        "date": "6 mai 2025",
+        "categorie": "Blog – Clash Royale",
+        "lien": "https://supercell.com/en/games/clashroyale/fr/blog/release-notes/changements-d-equilibrage-de-mai-2/",
+        "image": "pict/mai.webp"
+    },
+    {
+        "titre": "Nouvelle saison : La marche des morts-vivants",
+        "date": "2 mai 2025",
+        "categorie": "Blog – Clash Royale",
+        "lien": "https://clashroyale.com/fr/blog/news/nouvelle-saison-la-marche-des-morts-vivants.html",
+        "image": "pict/morts-vivants.webp"
+    },
+    {
+        "titre": "Changements d'équilibrage d'avril",
+        "date": "9 avr. 2025",
+        "categorie": "Blog – Clash Royale",
+        "lien": "https://supercell.com/en/games/clashroyale/fr/blog/release-notes/changements-d-equilibrage-d-avril/",
+        "image": "pict/équilibrage.webp"
+    },
+    {
+        "titre": "Saison Carambolages cambrioleurs !",
+        "date": "7 avr. 2025",
+        "categorie": "Blog – Clash Royale",
+        "lien": "https://supercell.com/en/games/clashroyale/fr/blog/news/saison-carambolages-cambrioleurs/",
+        "image": "pict/Season_70.webp"
+    }
+]

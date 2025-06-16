@@ -1,0 +1,706 @@
+/* --- TITRE --- */
+h1 {
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    font-size: 48px;
+    color: #2c3e50;
+    margin-top: 30px;
+}
+
+/* Fond avec image */
+.login-page {
+    background-image: url('pict/login_background.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Conteneur de connexion */
+.login-container {
+    width: 400px;
+    padding: 30px;
+    background-color: rgba(244, 246, 249, 0.95); /* transparence légère */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-container p,
+.login-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-container form input[type="email"],
+.login-container form input[type="password"]{
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.login-container form button{
+    width: 150px;              /* largeur fixe plus étroite */
+    margin: 10px auto 0 auto;  /* centre horizontalement */
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #0074D9;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+
+.login-container form button:hover{
+    background-color: #005fa3;
+}
+
+/* --- BACK BUTTON --- */
+
+.back-button{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    z-index: 10;
+}
+
+.back-button:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+/* --- FORMULAIRE DE TRI/FILTRE --- */
+.deck-filter-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px auto;
+}
+
+.deck-filter-form input[type="text"],
+.deck-filter-form select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.deck-filter-form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #0074D9;
+    color: white;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.deck-filter-form button:hover {
+    background-color: #005fa3;
+}
+
+/* --- CONTAINER DE DECKS --- */
+.deck-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+/* --- STYLE DE CHAQUE DECK --- */
+.deck {
+    position: relative;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px; /* limite la largeur */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    overflow: hidden; /* empêche les enfants de dépasser */
+}
+
+
+.deck:hover {
+    transform: translateY(-5px);
+}
+
+.deck h2 {
+    margin-top: 0;
+    font-size: 22px;
+    color: #2c3e50;
+}
+
+.deck p {
+    font-size: 15px;
+    color: #333;
+}
+
+.deck small {
+    display: block;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+/* --- FAVORI --- */
+.favorite-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    padding: 0;
+}
+
+.favorite-button img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.2s ease;
+}
+
+.favorite-button:hover img {
+    transform: scale(1.2);
+}
+
+/* --- LISTE DES CARTES DANS LE DECK --- */
+.card-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 colonnes fixes */
+    grid-template-rows: repeat(2, auto);   /* 2 lignes */
+    gap: 10px;
+    margin-top: 10px;
+    justify-items: center;
+}
+
+
+.card-list .card {
+    width: 100%;         /* prend toute la largeur de la cellule */
+    max-width: 80px;     /* limite sur grand écran */
+    text-align: center;
+}
+
+.card-list .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+.card-name {
+    font-size: 12px;
+    margin-top: 5px;
+    color: #333;
+}
+
+@media (max-width: 600px) {
+    .card-list .card {
+        max-width: 60px; /* ou même 50px si tu veux plus petit */
+    }
+}
+
+/* --- BACKGROUND --- */
+#background {
+    width: 100%;
+    height: auto;
+
+}
+
+/* --- NAVIGATION --- */
+.nav-auth {
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    display: inline-block;
+}
+
+
+.navbar {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2c3e50;
+    padding: 15px 30px;
+    color: white;
+    flex-wrap: wrap;
+    position: relative;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.nav-logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#king {
+    height: 60px;
+    width: auto;
+}
+
+.nav-logo {
+    font-family: 'Bangers', cursive;
+    font-size: 32px;
+    color: #ffffff;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    background-color: #34495e;
+}
+
+
+.auth-link {
+    background-color: #0074D9;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.auth-link:hover {
+    background-color: #005fa3;
+}
+
+/* --- Message de bienvenue --- */
+.m-2 {
+    margin: 10px 20px;
+    font-size: 16px;
+    color: #2c3e50;
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+        margin-top: 10px;
+    }
+
+    .nav-auth {
+        margin-top: 10px;
+        align-self: flex-end;
+    }
+}
+
+/* Base */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    color: #2c3e50;
+    margin: 20px 0 10px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 10px;
+}
+
+form input[type="text"],
+form select {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    min-width: 200px;
+}
+
+form button {
+    padding: 10px 16px;
+    font-size: 16px;
+    background-color: #0074D9;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #005fa3;
+}
+
+/* Cartes */
+.card-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin: 10px;
+    padding: 15px;
+    width: 180px;
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px) scale(1.03);
+}
+
+.card img {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card p {
+    margin: 8px 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .card {
+        width: 45%;
+    }
+
+    form {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        width: 90%;
+    }
+}
+
+.pagination {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
+    justify-content: center;
+    margin: 20px auto;
+    position: relative;
+    }
+
+.pagination a, .pagination strong {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f0f0f0;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+}
+
+.left-right {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pagination strong {
+    background-color: #007BFF;
+    color: white;
+}
+
+.nav-auth li.dropdown:hover > .dropdown-content,
+.nav-auth li.dropdown:focus-within > .dropdown-content {
+    display: block;
+}
+
+.nav-auth li.dropdown {
+    position: relative; /* parent en position relative */
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;   /* juste sous le lien parent */
+    left: 0;     /* aligné à gauche du lien parent */
+    background-color: #fff;
+    color : black;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 1000;
+    border-radius: 4px;
+    padding: 0.5em 0;
+}
+
+/* Affichage au survol/focus */
+.nav-auth li.dropdown:hover > .dropdown-content,
+.nav-auth li.dropdown:focus-within > .dropdown-content {
+    display: block;
+}
+
+.tabs {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+}
+.tabs a {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    background-color: #eee;
+    color: #333;
+}
+.tabs a.active {
+    background-color: #007bff;
+    color: white;
+}
+
+ul.nav-auth {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Dropdown spécifique */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.nav-auth {
+    justify-content: left;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%; /* centre par rapport au bouton */
+    transform: translateX(-50%);
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-radius: 5px;
+}
+
+.dropdown-content li a {
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content li a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.message-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+    border: 1px solid #ccc;
+}
+
+.message-form button{
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.message-form button:hover {
+    background-color: #0056b3;
+}
+
+.message-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 0.75rem;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+}
+
+/* Bouton annuler */
+.btn-cancel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color : #000000;
+    background-color: #e6e1e1;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-cancel:hover {
+    background-color: #eee;
+    border-color: #aaa;
+}
+
+textarea {
+  resize: none;          /* Empêche le redimensionnement manuel */
+  overflow: hidden;      /* Cache les barres de défilement */
+  min-height: 50px;
+  min-width: 150px;      /* Largeur minimale */
+  max-width: 600px;      /* Largeur maximale */
+  box-sizing: content-box; /* Pour que width corresponde au contenu */
+  font-family: inherit;  /* Pour éviter que la largeur soit faussée */
+  font-size: 1rem;
+  white-space: nowrap;   /* Empêche le retour à la ligne automatique */
+}
+
+.article {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 25px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #333;
+    background-color: #fff;
+    transition: box-shadow 0.3s ease;
+}
+
+.article:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.article img {
+    width: 250px;
+    height: auto;
+    border-radius: 8px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.article-content {
+    flex: 1;
+}
+
+.article-content h2 {
+    margin-top: 0;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.article-content p {
+    margin: 6px 0;
+    font-size: 0.95em;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 20px 10px;
+    }
+
+    .news-container {
+        max-width: 100%; /* prendre toute la largeur dispo */
+        padding: 0 10px;
+    }
+
+    .article {
+        flex-direction: column; /* empile image + contenu verticalement */
+        align-items: center;
+        text-align: center;
+    }
+
+    .article img {
+        width: 100%;      /* image pleine largeur */
+        max-width: 300px; /* limite la largeur max de l'image */
+        height: auto;
+        margin-bottom: 15px;
+        border-radius: 8px;
+    }
+
+    .article-content {
+        flex: unset; /* désactive flex-grow */
+    }
+}

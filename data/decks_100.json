@@ -1,0 +1,1402 @@
+[
+  {
+    "name": "Deck #1",
+    "commentaire": "Utilise le Tornado pour défendre puis contre-attaquer.",
+    "cards": [
+      27000001,
+      26000015,
+      28000005,
+      26000035,
+      26000026,
+      26000038,
+      28000011,
+      28000010
+    ]
+  },
+  {
+    "name": "Deck #2",
+    "commentaire": "Utilise le Tornado pour défendre puis contre-attaquer.",
+    "cards": [
+      28000000,
+      26000022,
+      28000001,
+      28000010,
+      26000035,
+      28000015,
+      26000046,
+      26000039
+    ]
+  },
+  {
+    "name": "Deck #3",
+    "commentaire": "Utilisation agressive de Royal Hogs pour la pression double-lane.",
+    "cards": [
+      26000005,
+      27000001,
+      27000003,
+      26000015,
+      26000029,
+      26000001,
+      28000008,
+      27000012
+    ]
+  },
+  {
+    "name": "Deck #4",
+    "commentaire": "Contrôle avec Goblin Barrel et Princess. Très bon contre tanks.",
+    "cards": [
+      26000042,
+      26000032,
+      26000022,
+      28000001,
+      26000045,
+      26000000,
+      26000011,
+      26000014
+    ]
+  },
+  {
+    "name": "Deck #5",
+    "commentaire": "Contrôle avec Goblin Barrel et Princess. Très bon contre tanks.",
+    "cards": [
+      26000005,
+      27000012,
+      28000015,
+      26000022,
+      26000044,
+      26000030,
+      26000035,
+      27000003
+    ]
+  },
+  {
+    "name": "Deck #6",
+    "commentaire": "Géant en tank + les deux princes pour faire fondre les défenses.",
+    "cards": [
+      26000030,
+      26000003,
+      26000042,
+      26000046,
+      26000021,
+      26000029,
+      26000045,
+      28000008
+    ]
+  },
+  {
+    "name": "Deck #7",
+    "commentaire": "Fort contre les decks lourds grâce au cycle rapide.",
+    "cards": [
+      28000015,
+      28000001,
+      26000014,
+      26000036,
+      28000008,
+      26000003,
+      26000005,
+      26000029
+    ]
+  },
+  {
+    "name": "Deck #8",
+    "commentaire": "Deck très solide pour gérer les deux lanes avec pression constante.",
+    "cards": [
+      26000015,
+      26000000,
+      26000025,
+      27000012,
+      26000036,
+      28000001,
+      28000015,
+      26000005
+    ]
+  },
+  {
+    "name": "Deck #9",
+    "commentaire": "Gros push avec Golem en fond de map. Soutien Baby Dragon et Night Witch.",
+    "cards": [
+      26000025,
+      26000045,
+      26000011,
+      26000038,
+      28000005,
+      26000003,
+      26000035,
+      26000015
+    ]
+  },
+  {
+    "name": "Deck #10",
+    "commentaire": "Bonne option pour ladder avec un bon équilibre attaque/défense.",
+    "cards": [
+      27000001,
+      28000011,
+      28000003,
+      26000039,
+      26000046,
+      26000032,
+      26000045,
+      27000007
+    ]
+  },
+  {
+    "name": "Deck #11",
+    "commentaire": "Deck très solide pour gérer les deux lanes avec pression constante.",
+    "cards": [
+      26000042,
+      28000000,
+      26000038,
+      26000036,
+      27000003,
+      26000000,
+      28000008,
+      28000003
+    ]
+  },
+  {
+    "name": "Deck #12",
+    "commentaire": "Géant en tank + les deux princes pour faire fondre les défenses.",
+    "cards": [
+      26000015,
+      26000000,
+      26000011,
+      26000025,
+      26000001,
+      28000015,
+      26000021,
+      26000014
+    ]
+  },
+  {
+    "name": "Deck #13",
+    "commentaire": "Géant en tank + les deux princes pour faire fondre les défenses.",
+    "cards": [
+      26000045,
+      28000003,
+      28000008,
+      26000015,
+      26000026,
+      26000046,
+      26000035,
+      28000015
+    ]
+  },
+  {
+    "name": "Deck #14",
+    "commentaire": "Deck polyvalent avec bonne défense et contre-attaque rapide.",
+    "cards": [
+      26000036,
+      27000001,
+      26000038,
+      26000045,
+      26000000,
+      26000035,
+      28000011,
+      26000026
+    ]
+  },
+  {
+    "name": "Deck #15",
+    "commentaire": "Gros push avec Golem en fond de map. Soutien Baby Dragon et Night Witch.",
+    "cards": [
+      26000039,
+      26000029,
+      28000010,
+      27000007,
+      26000000,
+      27000012,
+      26000026,
+      28000001
+    ]
+  },
+  {
+    "name": "Deck #16",
+    "commentaire": "Bonne option pour ladder avec un bon équilibre attaque/défense.",
+    "cards": [
+      26000029,
+      26000015,
+      28000003,
+      26000030,
+      26000036,
+      26000042,
+      26000026,
+      27000012
+    ]
+  },
+  {
+    "name": "Deck #17",
+    "commentaire": "Gros push avec Golem en fond de map. Soutien Baby Dragon et Night Witch.",
+    "cards": [
+      26000032,
+      26000030,
+      26000039,
+      26000042,
+      28000003,
+      26000038,
+      27000001,
+      26000036
+    ]
+  },
+  {
+    "name": "Deck #18",
+    "commentaire": "Deck polyvalent avec bonne défense et contre-attaque rapide.",
+    "cards": [
+      26000001,
+      26000029,
+      26000045,
+      27000003,
+      28000011,
+      27000001,
+      26000044,
+      28000015
+    ]
+  },
+  {
+    "name": "Deck #19",
+    "commentaire": "Fort contre les decks lourds grâce au cycle rapide.",
+    "cards": [
+      28000000,
+      26000044,
+      26000000,
+      26000015,
+      28000015,
+      26000039,
+      26000045,
+      26000036
+    ]
+  },
+  {
+    "name": "Deck #20",
+    "commentaire": "Géant en tank + les deux princes pour faire fondre les défenses.",
+    "cards": [
+      26000039,
+      26000042,
+      26000001,
+      27000003,
+      26000022,
+      26000000,
+      26000025,
+      26000035
+    ]
+  },
+  {
+    "name": "Deck #21",
+    "commentaire": "Utilisation agressive de Royal Hogs pour la pression double-lane.",
+    "cards": [
+      26000038,
+      26000011,
+      26000005,
+      28000005,
+      27000001,
+      26000014,
+      26000003,
+      27000003
+    ]
+  },
+  {
+    "name": "Deck #22",
+    "commentaire": "Bonne option pour ladder avec un bon équilibre attaque/défense.",
+    "cards": [
+      26000038,
+      26000026,
+      26000042,
+      28000003,
+      26000025,
+      26000032,
+      26000030,
+      26000011
+    ]
+  },
+  {
+    "name": "Deck #23",
+    "commentaire": "Cycle très rapide autour de Hog Rider et Fireball.",
+    "cards": [
+      26000045,
+      26000000,
+      26000044,
+      26000038,
+      28000008,
+      27000012,
+      26000022,
+      28000011
+    ]
+  },
+  {
+    "name": "Deck #24",
+    "commentaire": "Cycle très rapide autour de Hog Rider et Fireball.",
+    "cards": [
+      26000000,
+      26000026,
+      26000046,
+      26000025,
+      26000045,
+      26000022,
+      26000042,
+      28000015
+    ]
+  },
+  {
+    "name": "Deck #25",
+    "commentaire": "Fort contre les decks lourds grâce au cycle rapide.",
+    "cards": [
+      28000001,
+      26000014,
+      26000015,
+      26000039,
+      26000042,
+      27000003,
+      28000011,
+      26000021
+    ]
+  },
+  {
+    "name": "Deck #26",
+    "commentaire": "Utilise le Tornado pour défendre puis contre-attaquer.",
+    "cards": [
+      28000010,
+      26000011,
+      28000005,
+      26000036,
+      26000029,
+      26000025,
+      26000001,
+      26000044
+    ]
+  },
+  {
+    "name": "Deck #27",
+    "commentaire": "Gros push avec Golem en fond de map. Soutien Baby Dragon et Night Witch.",
+    "cards": [
+      26000003,
+      27000003,
+      26000014,
+      28000005,
+      26000036,
+      28000008,
+      26000022,
+      26000021
+    ]
+  },
+  {
+    "name": "Deck #28",
+    "commentaire": "Utilisation agressive de Royal Hogs pour la pression double-lane.",
+    "cards": [
+      26000015,
+      26000021,
+      26000001,
+      26000038,
+      28000001,
+      26000042,
+      28000000,
+      26000044
+    ]
+  },
+  {
+    "name": "Deck #29",
+    "commentaire": "Gros push avec Golem en fond de map. Soutien Baby Dragon et Night Witch.",
+    "cards": [
+      26000030,
+      28000015,
+      28000001,
+      28000000,
+      26000039,
+      28000003,
+      28000008,
+      26000001
+    ]
+  },
+  {
+    "name": "Deck #30",
+    "commentaire": "Bonne option pour ladder avec un bon équilibre attaque/défense.",
+    "cards": [
+      28000015,
+      26000026,
+      26000005,
+      26000046,
+      26000001,
+      26000003,
+      27000003,
+      27000007
+    ]
+  },
+  {
+    "name": "Deck #31",
+    "commentaire": "Contrôle avec Goblin Barrel et Princess. Très bon contre tanks.",
+    "cards": [
+      26000015,
+      26000044,
+      26000035,
+      28000010,
+      26000026,
+      28000008,
+      26000045,
+      26000005
+    ]
+  },
+  {
+    "name": "Deck #32",
+    "commentaire": "Gros push avec Golem en fond de map. Soutien Baby Dragon et Night Witch.",
+    "cards": [
+      26000036,
+      28000001,
+      26000029,
+      28000003,
+      28000011,
+      26000035,
+      26000011,
+      28000005
+    ]
+  },
+  {
+    "name": "Deck #33",
+    "commentaire": "Géant en tank + les deux princes pour faire fondre les défenses.",
+    "cards": [
+      26000005,
+      26000032,
+      28000011,
+      26000026,
+      26000030,
+      28000000,
+      26000021,
+      26000022
+    ]
+  },
+  {
+    "name": "Deck #34",
+    "commentaire": "Géant en tank + les deux princes pour faire fondre les défenses.",
+    "cards": [
+      26000021,
+      28000003,
+      26000046,
+      28000008,
+      27000001,
+      28000005,
+      26000035,
+      26000036
+    ]
+  },
+  {
+    "name": "Deck #35",
+    "commentaire": "Géant en tank + les deux princes pour faire fondre les défenses.",
+    "cards": [
+      26000046,
+      26000022,
+      28000008,
+      27000003,
+      26000026,
+      26000014,
+      26000029,
+      26000032
+    ]
+  },
+  {
+    "name": "Deck #36",
+    "commentaire": "Fort contre les decks lourds grâce au cycle rapide.",
+    "cards": [
+      26000022,
+      27000007,
+      28000011,
+      26000015,
+      26000001,
+      26000032,
+      26000045,
+      27000012
+    ]
+  },
+  {
+    "name": "Deck #37",
+    "commentaire": "Géant en tank + les deux princes pour faire fondre les défenses.",
+    "cards": [
+      26000003,
+      26000035,
+      26000046,
+      27000003,
+      26000015,
+      28000000,
+      28000010,
+      27000012
+    ]
+  },
+  {
+    "name": "Deck #38",
+    "commentaire": "Utilisation agressive de Royal Hogs pour la pression double-lane.",
+    "cards": [
+      27000001,
+      26000001,
+      26000014,
+      28000000,
+      26000000,
+      28000003,
+      27000003,
+      26000022
+    ]
+  },
+  {
+    "name": "Deck #39",
+    "commentaire": "Géant en tank + les deux princes pour faire fondre les défenses.",
+    "cards": [
+      27000003,
+      26000021,
+      26000000,
+      26000026,
+      26000046,
+      26000035,
+      26000025,
+      27000012
+    ]
+  },
+  {
+    "name": "Deck #40",
+    "commentaire": "Gros push avec Golem en fond de map. Soutien Baby Dragon et Night Witch.",
+    "cards": [
+      26000036,
+      26000030,
+      26000038,
+      26000042,
+      28000001,
+      26000026,
+      26000015,
+      26000045
+    ]
+  },
+  {
+    "name": "Deck #41",
+    "commentaire": "Deck très solide pour gérer les deux lanes avec pression constante.",
+    "cards": [
+      28000015,
+      26000026,
+      26000001,
+      28000001,
+      28000005,
+      26000003,
+      26000030,
+      26000014
+    ]
+  },
+  {
+    "name": "Deck #42",
+    "commentaire": "Deck polyvalent avec bonne défense et contre-attaque rapide.",
+    "cards": [
+      27000012,
+      26000005,
+      26000022,
+      28000015,
+      27000003,
+      26000000,
+      26000032,
+      26000001
+    ]
+  },
+  {
+    "name": "Deck #43",
+    "commentaire": "Deck polyvalent avec bonne défense et contre-attaque rapide.",
+    "cards": [
+      26000022,
+      26000039,
+      26000001,
+      28000008,
+      27000001,
+      28000005,
+      26000029,
+      28000001
+    ]
+  },
+  {
+    "name": "Deck #44",
+    "commentaire": "Géant en tank + les deux princes pour faire fondre les défenses.",
+    "cards": [
+      26000044,
+      26000032,
+      26000011,
+      26000036,
+      26000029,
+      28000015,
+      26000001,
+      26000005
+    ]
+  },
+  {
+    "name": "Deck #45",
+    "commentaire": "Gros push avec Golem en fond de map. Soutien Baby Dragon et Night Witch.",
+    "cards": [
+      26000003,
+      26000035,
+      26000001,
+      26000005,
+      26000045,
+      26000038,
+      28000000,
+      28000005
+    ]
+  },
+  {
+    "name": "Deck #46",
+    "commentaire": "Géant en tank + les deux princes pour faire fondre les défenses.",
+    "cards": [
+      26000005,
+      28000000,
+      27000003,
+      26000022,
+      26000035,
+      26000039,
+      26000025,
+      26000014
+    ]
+  },
+  {
+    "name": "Deck #47",
+    "commentaire": "Fort contre les decks lourds grâce au cycle rapide.",
+    "cards": [
+      26000039,
+      28000000,
+      26000003,
+      26000038,
+      26000015,
+      26000026,
+      28000003,
+      28000015
+    ]
+  },
+  {
+    "name": "Deck #48",
+    "commentaire": "Cycle très rapide autour de Hog Rider et Fireball.",
+    "cards": [
+      27000007,
+      27000001,
+      26000000,
+      26000021,
+      27000012,
+      26000005,
+      28000000,
+      26000038
+    ]
+  },
+  {
+    "name": "Deck #49",
+    "commentaire": "Deck polyvalent avec bonne défense et contre-attaque rapide.",
+    "cards": [
+      28000015,
+      26000045,
+      27000007,
+      26000044,
+      26000000,
+      28000005,
+      26000021,
+      26000030
+    ]
+  },
+  {
+    "name": "Deck #50",
+    "commentaire": "Deck très solide pour gérer les deux lanes avec pression constante.",
+    "cards": [
+      26000022,
+      26000045,
+      26000044,
+      28000003,
+      26000011,
+      28000010,
+      27000001,
+      26000035
+    ]
+  },
+  {
+    "name": "Deck #51",
+    "commentaire": "Deck polyvalent avec bonne défense et contre-attaque rapide.",
+    "cards": [
+      26000044,
+      26000038,
+      26000015,
+      26000022,
+      26000011,
+      26000021,
+      28000008,
+      26000014
+    ]
+  },
+  {
+    "name": "Deck #52",
+    "commentaire": "Gros push avec Golem en fond de map. Soutien Baby Dragon et Night Witch.",
+    "cards": [
+      28000010,
+      26000045,
+      26000044,
+      26000015,
+      26000003,
+      26000035,
+      27000007,
+      26000005
+    ]
+  },
+  {
+    "name": "Deck #53",
+    "commentaire": "Utilise le Tornado pour défendre puis contre-attaquer.",
+    "cards": [
+      27000003,
+      26000015,
+      26000039,
+      26000030,
+      26000014,
+      26000042,
+      26000036,
+      26000025
+    ]
+  },
+  {
+    "name": "Deck #54",
+    "commentaire": "Deck très solide pour gérer les deux lanes avec pression constante.",
+    "cards": [
+      26000015,
+      27000007,
+      26000011,
+      28000001,
+      26000045,
+      28000010,
+      26000046,
+      26000021
+    ]
+  },
+  {
+    "name": "Deck #55",
+    "commentaire": "Cycle très rapide autour de Hog Rider et Fireball.",
+    "cards": [
+      26000038,
+      26000011,
+      26000036,
+      26000015,
+      26000003,
+      28000003,
+      28000010,
+      26000000
+    ]
+  },
+  {
+    "name": "Deck #56",
+    "commentaire": "Bonne option pour ladder avec un bon équilibre attaque/défense.",
+    "cards": [
+      28000001,
+      26000015,
+      28000003,
+      26000029,
+      28000015,
+      26000046,
+      26000021,
+      27000007
+    ]
+  },
+  {
+    "name": "Deck #57",
+    "commentaire": "Géant en tank + les deux princes pour faire fondre les défenses.",
+    "cards": [
+      26000045,
+      26000042,
+      27000001,
+      26000035,
+      26000022,
+      28000003,
+      26000005,
+      28000010
+    ]
+  },
+  {
+    "name": "Deck #58",
+    "commentaire": "Fort contre les decks lourds grâce au cycle rapide.",
+    "cards": [
+      26000003,
+      26000025,
+      26000026,
+      26000000,
+      28000015,
+      28000001,
+      26000011,
+      26000030
+    ]
+  },
+  {
+    "name": "Deck #59",
+    "commentaire": "Bonne option pour ladder avec un bon équilibre attaque/défense.",
+    "cards": [
+      26000005,
+      26000032,
+      28000008,
+      26000022,
+      26000046,
+      26000003,
+      26000036,
+      26000035
+    ]
+  },
+  {
+    "name": "Deck #60",
+    "commentaire": "Fort contre les decks lourds grâce au cycle rapide.",
+    "cards": [
+      26000022,
+      26000000,
+      26000011,
+      26000021,
+      27000003,
+      27000001,
+      26000042,
+      28000008
+    ]
+  },
+  {
+    "name": "Deck #61",
+    "commentaire": "Deck très solide pour gérer les deux lanes avec pression constante.",
+    "cards": [
+      26000046,
+      26000030,
+      26000032,
+      26000042,
+      28000000,
+      27000012,
+      27000007,
+      28000008
+    ]
+  },
+  {
+    "name": "Deck #62",
+    "commentaire": "Bonne option pour ladder avec un bon équilibre attaque/défense.",
+    "cards": [
+      28000001,
+      26000045,
+      28000011,
+      28000015,
+      26000038,
+      27000007,
+      26000001,
+      28000008
+    ]
+  },
+  {
+    "name": "Deck #63",
+    "commentaire": "Utilisation agressive de Royal Hogs pour la pression double-lane.",
+    "cards": [
+      26000026,
+      26000045,
+      27000012,
+      28000001,
+      26000036,
+      26000022,
+      28000015,
+      26000042
+    ]
+  },
+  {
+    "name": "Deck #64",
+    "commentaire": "Utilisation agressive de Royal Hogs pour la pression double-lane.",
+    "cards": [
+      26000042,
+      26000044,
+      28000005,
+      28000015,
+      28000003,
+      26000038,
+      28000001,
+      26000045
+    ]
+  },
+  {
+    "name": "Deck #65",
+    "commentaire": "Contrôle avec Goblin Barrel et Princess. Très bon contre tanks.",
+    "cards": [
+      26000042,
+      27000007,
+      26000001,
+      26000011,
+      26000022,
+      28000008,
+      28000015,
+      26000032
+    ]
+  },
+  {
+    "name": "Deck #66",
+    "commentaire": "Géant en tank + les deux princes pour faire fondre les défenses.",
+    "cards": [
+      26000039,
+      26000021,
+      26000025,
+      26000011,
+      26000035,
+      26000015,
+      26000045,
+      28000011
+    ]
+  },
+  {
+    "name": "Deck #67",
+    "commentaire": "Gros push avec Golem en fond de map. Soutien Baby Dragon et Night Witch.",
+    "cards": [
+      26000036,
+      27000001,
+      28000000,
+      27000012,
+      26000001,
+      26000026,
+      26000014,
+      26000038
+    ]
+  },
+  {
+    "name": "Deck #68",
+    "commentaire": "Bonne option pour ladder avec un bon équilibre attaque/défense.",
+    "cards": [
+      26000000,
+      26000003,
+      26000005,
+      28000010,
+      26000038,
+      26000022,
+      26000039,
+      26000026
+    ]
+  },
+  {
+    "name": "Deck #69",
+    "commentaire": "Utilise le Tornado pour défendre puis contre-attaquer.",
+    "cards": [
+      28000010,
+      28000000,
+      26000038,
+      26000029,
+      27000012,
+      27000003,
+      26000003,
+      26000026
+    ]
+  },
+  {
+    "name": "Deck #70",
+    "commentaire": "Cycle très rapide autour de Hog Rider et Fireball.",
+    "cards": [
+      28000005,
+      26000038,
+      26000015,
+      28000011,
+      27000001,
+      26000003,
+      28000000,
+      26000026
+    ]
+  },
+  {
+    "name": "Deck #71",
+    "commentaire": "Fort contre les decks lourds grâce au cycle rapide.",
+    "cards": [
+      26000015,
+      26000021,
+      28000011,
+      26000046,
+      28000005,
+      27000007,
+      26000026,
+      26000036
+    ]
+  },
+  {
+    "name": "Deck #72",
+    "commentaire": "Deck polyvalent avec bonne défense et contre-attaque rapide.",
+    "cards": [
+      28000015,
+      26000042,
+      26000029,
+      26000038,
+      26000015,
+      26000030,
+      28000003,
+      26000000
+    ]
+  },
+  {
+    "name": "Deck #73",
+    "commentaire": "Deck polyvalent avec bonne défense et contre-attaque rapide.",
+    "cards": [
+      28000000,
+      26000011,
+      26000003,
+      27000012,
+      26000005,
+      26000026,
+      26000042,
+      26000039
+    ]
+  },
+  {
+    "name": "Deck #74",
+    "commentaire": "Utilisation agressive de Royal Hogs pour la pression double-lane.",
+    "cards": [
+      26000045,
+      26000038,
+      26000022,
+      27000012,
+      28000010,
+      26000001,
+      26000025,
+      28000003
+    ]
+  },
+  {
+    "name": "Deck #75",
+    "commentaire": "Géant en tank + les deux princes pour faire fondre les défenses.",
+    "cards": [
+      27000007,
+      26000030,
+      26000045,
+      27000001,
+      26000003,
+      26000044,
+      28000008,
+      28000015
+    ]
+  },
+  {
+    "name": "Deck #76",
+    "commentaire": "Cycle très rapide autour de Hog Rider et Fireball.",
+    "cards": [
+      27000012,
+      26000014,
+      26000030,
+      26000026,
+      28000010,
+      26000000,
+      28000001,
+      28000015
+    ]
+  },
+  {
+    "name": "Deck #77",
+    "commentaire": "Géant en tank + les deux princes pour faire fondre les défenses.",
+    "cards": [
+      26000044,
+      26000011,
+      26000039,
+      28000010,
+      26000000,
+      26000029,
+      26000022,
+      28000008
+    ]
+  },
+  {
+    "name": "Deck #78",
+    "commentaire": "Gros push avec Golem en fond de map. Soutien Baby Dragon et Night Witch.",
+    "cards": [
+      28000005,
+      26000038,
+      26000026,
+      26000015,
+      26000022,
+      26000025,
+      28000008,
+      28000011
+    ]
+  },
+  {
+    "name": "Deck #79",
+    "commentaire": "Contrôle avec Goblin Barrel et Princess. Très bon contre tanks.",
+    "cards": [
+      26000045,
+      26000044,
+      26000036,
+      26000032,
+      26000025,
+      28000008,
+      26000005,
+      26000003
+    ]
+  },
+  {
+    "name": "Deck #80",
+    "commentaire": "Utilisation agressive de Royal Hogs pour la pression double-lane.",
+    "cards": [
+      26000035,
+      26000025,
+      26000003,
+      26000039,
+      26000042,
+      26000022,
+      26000038,
+      26000044
+    ]
+  },
+  {
+    "name": "Deck #81",
+    "commentaire": "Géant en tank + les deux princes pour faire fondre les défenses.",
+    "cards": [
+      26000032,
+      28000000,
+      26000045,
+      26000011,
+      28000005,
+      26000030,
+      26000038,
+      26000046
+    ]
+  },
+  {
+    "name": "Deck #82",
+    "commentaire": "Cycle très rapide autour de Hog Rider et Fireball.",
+    "cards": [
+      28000000,
+      26000045,
+      26000035,
+      26000003,
+      26000030,
+      26000015,
+      28000008,
+      28000011
+    ]
+  },
+  {
+    "name": "Deck #83",
+    "commentaire": "Gros push avec Golem en fond de map. Soutien Baby Dragon et Night Witch.",
+    "cards": [
+      28000001,
+      27000003,
+      28000015,
+      26000015,
+      26000022,
+      26000039,
+      26000036,
+      26000025
+    ]
+  },
+  {
+    "name": "Deck #84",
+    "commentaire": "Deck très solide pour gérer les deux lanes avec pression constante.",
+    "cards": [
+      26000015,
+      26000025,
+      26000029,
+      28000000,
+      28000005,
+      26000026,
+      26000001,
+      28000008
+    ]
+  },
+  {
+    "name": "Deck #85",
+    "commentaire": "Bonne option pour ladder avec un bon équilibre attaque/défense.",
+    "cards": [
+      27000003,
+      26000036,
+      28000000,
+      27000012,
+      26000035,
+      26000045,
+      26000039,
+      26000030
+    ]
+  },
+  {
+    "name": "Deck #86",
+    "commentaire": "Gros push avec Golem en fond de map. Soutien Baby Dragon et Night Witch.",
+    "cards": [
+      26000029,
+      26000005,
+      27000007,
+      26000035,
+      26000046,
+      26000032,
+      28000015,
+      26000025
+    ]
+  },
+  {
+    "name": "Deck #87",
+    "commentaire": "Bonne option pour ladder avec un bon équilibre attaque/défense.",
+    "cards": [
+      26000000,
+      26000046,
+      28000008,
+      26000003,
+      26000038,
+      28000015,
+      26000011,
+      26000029
+    ]
+  },
+  {
+    "name": "Deck #88",
+    "commentaire": "Utilisation agressive de Royal Hogs pour la pression double-lane.",
+    "cards": [
+      28000010,
+      28000000,
+      26000003,
+      28000001,
+      26000029,
+      26000044,
+      27000012,
+      28000005
+    ]
+  },
+  {
+    "name": "Deck #89",
+    "commentaire": "Gros push avec Golem en fond de map. Soutien Baby Dragon et Night Witch.",
+    "cards": [
+      28000003,
+      27000003,
+      28000001,
+      28000000,
+      26000015,
+      26000000,
+      26000021,
+      26000044
+    ]
+  },
+  {
+    "name": "Deck #90",
+    "commentaire": "Cycle très rapide autour de Hog Rider et Fireball.",
+    "cards": [
+      26000045,
+      26000025,
+      28000015,
+      26000036,
+      27000007,
+      26000001,
+      27000001,
+      26000015
+    ]
+  },
+  {
+    "name": "Deck #91",
+    "commentaire": "Utilisation agressive de Royal Hogs pour la pression double-lane.",
+    "cards": [
+      28000000,
+      28000005,
+      26000032,
+      26000046,
+      26000022,
+      27000007,
+      26000000,
+      26000025
+    ]
+  },
+  {
+    "name": "Deck #92",
+    "commentaire": "Bonne option pour ladder avec un bon équilibre attaque/défense.",
+    "cards": [
+      26000021,
+      26000038,
+      26000046,
+      26000042,
+      27000012,
+      26000015,
+      28000000,
+      26000036
+    ]
+  },
+  {
+    "name": "Deck #93",
+    "commentaire": "Utilisation agressive de Royal Hogs pour la pression double-lane.",
+    "cards": [
+      27000012,
+      26000022,
+      26000000,
+      26000029,
+      28000015,
+      28000011,
+      26000014,
+      27000001
+    ]
+  },
+  {
+    "name": "Deck #94",
+    "commentaire": "Utilisation agressive de Royal Hogs pour la pression double-lane.",
+    "cards": [
+      28000005,
+      26000036,
+      28000010,
+      26000021,
+      26000046,
+      26000015,
+      26000011,
+      26000042
+    ]
+  },
+  {
+    "name": "Deck #95",
+    "commentaire": "Fort contre les decks lourds grâce au cycle rapide.",
+    "cards": [
+      28000010,
+      26000044,
+      26000046,
+      26000026,
+      26000039,
+      26000030,
+      28000005,
+      26000025
+    ]
+  },
+  {
+    "name": "Deck #96",
+    "commentaire": "Deck très solide pour gérer les deux lanes avec pression constante.",
+    "cards": [
+      27000012,
+      28000010,
+      28000011,
+      28000015,
+      26000038,
+      26000026,
+      26000025,
+      28000005
+    ]
+  },
+  {
+    "name": "Deck #97",
+    "commentaire": "Deck polyvalent avec bonne défense et contre-attaque rapide.",
+    "cards": [
+      28000010,
+      27000007,
+      26000035,
+      28000005,
+      26000042,
+      28000001,
+      28000003,
+      26000000
+    ]
+  },
+  {
+    "name": "Deck #98",
+    "commentaire": "Contrôle avec Goblin Barrel et Princess. Très bon contre tanks.",
+    "cards": [
+      26000035,
+      26000036,
+      28000010,
+      26000015,
+      26000045,
+      26000032,
+      26000042,
+      26000025
+    ]
+  },
+  {
+    "name": "Deck #99",
+    "commentaire": "Contrôle avec Goblin Barrel et Princess. Très bon contre tanks.",
+    "cards": [
+      27000001,
+      26000036,
+      26000026,
+      27000003,
+      27000007,
+      26000000,
+      28000008,
+      28000003
+    ]
+  },
+  {
+    "name": "Deck #100",
+    "commentaire": "Gros push avec Golem en fond de map. Soutien Baby Dragon et Night Witch.",
+    "cards": [
+      28000008,
+      26000003,
+      26000045,
+      26000014,
+      28000011,
+      27000001,
+      26000022,
+      26000025
+    ]
+  }
+]
